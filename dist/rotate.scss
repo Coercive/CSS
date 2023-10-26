@@ -1,0 +1,29 @@
+.rotate-90 {
+    display: block;
+    transform: rotate(90deg);
+}
+
+.span-rotate-90 {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.rotate-180 {
+    display: block;
+    transform: rotate(180deg);
+}
+
+.span-rotate-180 {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.rotate-270 {
+    display: block;
+    transform: rotate(270deg);
+}
+
+.span-rotate-270 {
+    display: inline-block;
+    transform: rotate(270deg);
+}

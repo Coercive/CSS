@@ -1,0 +1,20 @@
+{
+    "name": "coercive/css",
+    "type": "library",
+    "description": "Coercive CSS",
+    "license": "MIT",
+    "licenses": [{
+      "type": "MIT",
+      "url": "https://github.com/Coercive/BotKicker/blob/master/LICENSE.txt"
+    }],
+    "authors": [
+        {
+            "name": "Anthony Moral",
+            "email": "contact@coercive.fr"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {},
+    "minimum-stability" : "dev"
+}

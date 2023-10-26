@@ -1,0 +1,10 @@
+//######################################################################################################################
+//# MATH FUNCTIONS
+
+@use "sass:math";
+
+//# Convert px to rem
+@function toRem($pxValue) {
+	$remValue: math.div($pxValue, 16) + rem;
+	@return $remValue;
+}

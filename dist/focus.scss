@@ -1,0 +1,16 @@
+//######################################################################################################################
+//# FOCUS BUTTONS UTILITIES
+
+//# No exterior line when focusing on the buttons
+.btn:focus {
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+button:focus {
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+*:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}

@@ -1,0 +1,13 @@
+//######################################################################################################################
+//# LINK UTILITIES
+
+.invisible-link {
+	color: inherit;
+	text-decoration: none;
+	transition: color ease .3s;
+	&:hover {
+		transition: color ease .3s;
+		text-decoration: none;
+		color: inherit;
+	}
+}

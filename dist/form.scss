@@ -1,0 +1,38 @@
+//######################################################################################################################
+//# FORM
+
+form {
+	.required {
+		background-color: $form-required-bg-color;
+		color: $form-required-color;
+		font-weight: bold;
+	}
+}
+
+/**
+ * @link https://thoughtbot.com/blog/sasss-content-directive
+ */
+@mixin placeholder {
+	&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		@content
+	}
+	&::-moz-placeholder { /* Firefox 19+ */
+		@content
+	}
+	&:-ms-input-placeholder { /* IE 10+ */
+		@content
+	}
+	&:-moz-placeholder { /* Firefox 18- */
+		@content
+	}
+}
+
+/**
+ * Change the 'option' color with the attribute 'disabled'
+ *
+ * @author Javi Marzán https://stackoverflow.com/users/8906267/javi-marz%c3%a1n
+ * @link https://stackoverflow.com/questions/30065920/change-the-option-color-with-the-attribute-disabled
+ */
+select:invalid {
+	color: $select-disabled-color;
+}

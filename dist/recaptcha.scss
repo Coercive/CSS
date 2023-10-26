@@ -1,0 +1,17 @@
+//######################################################################################################################
+//# RECAPTCHA
+
+/**
+ * https://developers.google.com/recaptcha/docs/faq
+ */
+.grecaptcha-badge {
+	visibility: hidden;
+}
+
+/**
+ * Custom branding info
+ */
+.regaptcha-branding-info {
+	font-size: .8rem;
+	color: grey;
+}

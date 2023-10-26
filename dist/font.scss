@@ -1,0 +1,27 @@
+//######################################################################################################################
+//# FONT UTILITIES
+
+.small-caps {
+	text-transform: none;
+	font-variant: small-caps;
+}
+.small-caps-u {
+	@extend .small-caps;
+	&:first-letter {
+		text-transform: uppercase;
+	}
+}
+
+.text-normalcase {
+	text-transform: none !important;
+}
+
+//# Limit lines to show
+@for $i from 1 through 3 {
+	.line-clamp-#{$i} {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: #{$i};
+		overflow: hidden;
+	}
+}

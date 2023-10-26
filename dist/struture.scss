@@ -1,0 +1,23 @@
+//######################################################################################################################
+//# BLOCKS UTILITIES
+
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: inherit;
+}
+
+.grow {
+	display: flex;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	flex-direction: inherit;
+}
+
+.hide {
+	display: none;
+}
+
+.height-auto {
+	height: auto !important;
+}
