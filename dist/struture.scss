@@ -21,3 +21,30 @@
 .height-auto {
 	height: auto !important;
 }
+
+//######################################################################################################################
+//# VISIBILITY UTILITIES
+
+.overflow-visible {
+	overflow: visible !important;
+}
+
+.overflow-x-visible {
+	overflow-x: visible !important;
+}
+
+.overflow-y-visible {
+	overflow-y: visible !important;
+}
+
+.overflow-hidden {
+	overflow: hidden !important;
+}
+
+.overflow-x-hidden {
+	overflow-x: hidden !important;
+}
+
+.overflow-y-hidden {
+	overflow-y: hidden !important;
+}
