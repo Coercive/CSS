@@ -16,6 +16,14 @@
 	text-transform: none !important;
 }
 
+.underlined {
+	text-decoration: underline;
+}
+
+.not-underlined {
+	text-decoration: none;
+}
+
 //# Limit lines to show
 @for $i from 1 through 3 {
 	.line-clamp-#{$i} {
