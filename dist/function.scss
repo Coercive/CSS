@@ -1,0 +1,25 @@
+/**
+ * PHP LIKE METHOD in_array()
+ *
+ * @param string $value
+ * @param array $list
+ * @return bool
+ */
+@function in_array($value, $list) {
+	$_out: false;
+	@each $v in $list { @if $v == $value { $_out: true; } }
+	@return $_out;
+}
+
+/**
+ * PHP LIKE METHOD array_key_exists()
+ *
+ * @param string $key
+ * @param array $list
+ * @return bool
+ */
+@function array_key_exists($key, $list) {
+	$_out: false;
+	@each $k, $v in $list { @if $k == $key { $_out: true; } }
+	@return $_out;
+}
